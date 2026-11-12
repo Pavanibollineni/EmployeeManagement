@@ -1,0 +1,24 @@
+
+# .NET build files
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Node modules
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Development.json
+
+# IDE files
+.vscode/
+
+# Logs
+*.log
